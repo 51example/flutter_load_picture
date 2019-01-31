@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'widget_picture.dart';
 
 void main() => runApp(MyApp());
 
@@ -98,6 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.display1,
             ),
+            CustomPictureWidget(),
           ],
         ),
       ),
